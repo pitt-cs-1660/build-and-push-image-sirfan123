@@ -1,0 +1,6 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github.project_id:positive-cocoa-433922-n2
+pool_id,github
+project_id,positive-cocoa-433922-n2
+Wed Oct 30 2024 18:19:00 GMT-0400 (Eastern Daylight Time),0.00777762962716045
+Wed Oct 30 2024 18:20:00 GMT-0400 (Eastern Daylight Time),0.03222192592098757
+Wed Oct 30 2024 18:21:00 GMT-0400 (Eastern Daylight Time),0.026667111118518643
