@@ -19,8 +19,8 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-          project_id: 'positive-cocoa-433922-n2' # update with your project ID
-          workload_identity_provider: 'projects/694494927846/locations/global/workloadIdentityPools/github/providers/my-repo' # update with your Workload Identity Pool
+          project_id: 'positive-cocoa-433922-n2'
+          workload_identity_provider: 'projects/694494927846/locations/global/workloadIdentityPools/github/providers/my-repo'
 
       # configure/login with docker
       - name: gcloud Configure Docker
