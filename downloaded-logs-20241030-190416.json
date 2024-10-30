@@ -1,0 +1,1823 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/c2f3904096734654aadc20f7e3630cd1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "1m0ywd8dwsyp",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:24.104271Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-1dac2bfe-643d-4b05-9738-f385fc182cb5",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:15:24.931707628Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/c2f3904096734654aadc20f7e3630cd1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-1dac2bfe-643d-4b05-9738-f385fc182cb5"
+    },
+    "insertId": "1hw6gpbdx3f5",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:24.818664Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:15:25.439580318Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/c2f3904096734654aadc20f7e3630cd1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/positive-cocoa-433922-n2/services/artifactregistry.googleapis.com"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse",
+        "service": {
+          "config": {
+            "title": "Artifact Registry API",
+            "name": "artifactregistry.googleapis.com"
+          },
+          "parent": "projects/694494927846",
+          "state": "ENABLED",
+          "name": "projects/694494927846/services/artifactregistry.googleapis.com"
+        }
+      }
+    },
+    "insertId": "f1k0y4dl1x2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:26.309307505Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-1dac2bfe-643d-4b05-9738-f385fc182cb5",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:15:26.309307505Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/c2f3904096734654aadc20f7e3630cd1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-1dac2bfe-643d-4b05-9738-f385fc182cb5"
+    },
+    "insertId": "9huc5adwo3b",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:27.022979Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:15:27.732590405Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.create invocation-id/c2f3904096734654aadc20f7e3630cd1 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-29T18:15:28.857436930Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2/locations/us-east1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/us-east1",
+      "request": {
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "parent": "projects/positive-cocoa-433922-n2/locations/us-east1",
+        "repository": {
+          "name": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+          "format": "DOCKER"
+        },
+        "repositoryId": "build-and-push-repo"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-east1"
+        ]
+      }
+    },
+    "insertId": "1adlis9d3xu3",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:28.847669402Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/positive-cocoa-433922-n2/locations/us-east1/operations/41de5565-49b3-42a1-8734-744efc91de65",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:15:29.307201071Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/positive-cocoa-433922-n2",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/positive-cocoa-433922-n2",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/positive-cocoa-433922-n2",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-694494927846@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-694494927846@compute-system.iam.gserviceaccount.com"
+              ],
+              "role": "roles/compute.serviceAgent"
+            },
+            {
+              "members": [
+                "serviceAccount:694494927846-compute@developer.gserviceaccount.com",
+                "serviceAccount:694494927846@cloudservices.gserviceaccount.com"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "members": [
+                "user:123samih101@gmail.com"
+              ],
+              "role": "roles/owner"
+            },
+            {
+              "role": "roles/artifactregistry.serviceAgent",
+              "members": [
+                "serviceAccountId:117867258937015817162"
+              ]
+            }
+          ],
+          "etag": "BwYiu/5fy6U="
+        },
+        "resource": "694494927846",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-694494927846@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:service-694494927846@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "role": "roles/editor",
+            "members": [
+              "serviceAccount:694494927846-compute@developer.gserviceaccount.com",
+              "serviceAccount:694494927846@cloudservices.gserviceaccount.com"
+            ]
+          },
+          {
+            "members": [
+              "user:123samih101@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYloZIPyTc=",
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "5alx2he1feo8",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:29.750622Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:15:31.543503211Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+      "response": {
+        "mode": "STANDARD_REPOSITORY",
+        "description": "Docker Artifact Registry for CI/CD",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-29T18:15:28.868103568Z"
+        },
+        "name": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+        "sbomConfig": {},
+        "format": "DOCKER",
+        "@type": "type.googleapis.com/google.protobuf.Any"
+      }
+    },
+    "insertId": "wsgkpndtxoe",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:15:37.924327830Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/positive-cocoa-433922-n2/locations/us-east1/operations/41de5565-49b3-42a1-8734-744efc91de65",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:15:38.026302561Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/sts.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/sts.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/sts.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/positive-cocoa-433922-n2/services/sts.googleapis.com"
+      }
+    },
+    "insertId": "6pwo0ndqwv6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:50.834733Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-c008222b-d2fc-4244-bd99-2663704e6d04",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:51.740704211Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/cloudresourcemanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudresourcemanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/cloudresourcemanager.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/cloudresourcemanager.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "9huc5adwotn",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:50.836570Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-fce04858-7731-46d4-a8cc-10b7c9e190a6",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:52.735900034Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com"
+    },
+    "insertId": "2u2cnyd57xw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:50.836898Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:51.912135471Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com"
+      }
+    },
+    "insertId": "6pwo0ndqwv7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:50.836898Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:52.737793550Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iamcredentials.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/iamcredentials.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "198jhdidivy5",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:50.838637Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-af427848-f459-424b-861c-545b4ea819c4",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:51.488959041Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-af427848-f459-424b-861c-545b4ea819c4"
+    },
+    "insertId": "1g5yqwkdu1z5",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:51.325456Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:51.634211066Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-c008222b-d2fc-4244-bd99-2663704e6d04"
+    },
+    "insertId": "1g5yqwkdu1z7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:51.627154Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:52.603046439Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2"
+    },
+    "insertId": "1hw6gpbdx48n",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:51.897669Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:53.723439126Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-fce04858-7731-46d4-a8cc-10b7c9e190a6"
+    },
+    "insertId": "7s0ayldvwdl",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:52.200221Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:52.820779151Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iamcredentials.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iamcredentials.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iamcredentials.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/iamcredentials.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/694494927846/services/iamcredentials.googleapis.com",
+          "config": {
+            "name": "iamcredentials.googleapis.com",
+            "title": "IAM Service Account Credentials API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/694494927846"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-4z3zyydfii2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:53.441159047Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-af427848-f459-424b-861c-545b4ea819c4",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:53.441159047Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/694494927846/services/iam.googleapis.com",
+          "config": {
+            "name": "iam.googleapis.com",
+            "title": "Identity and Access Management (IAM) API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/694494927846"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "kvchqldl6o2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:53.815003354Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:53.815003354Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/iam.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/iam.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/iam.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "status": "ENABLED",
+        "services": [
+          "iam.googleapis.com",
+          "iamcredentials.googleapis.com"
+        ],
+        "@type": "type.googleapis.com/google.api.tenant.apis.shared.activation.CrossLoggingResponse"
+      }
+    },
+    "insertId": "kvchqldl6o4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:53.815003354Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:53.815003354Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/sts.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/sts.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/sts.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/sts.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/694494927846/services/sts.googleapis.com",
+          "config": {
+            "name": "sts.googleapis.com",
+            "title": "Security Token Service API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/694494927846"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-sksdg8dk39a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:53.825792360Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-c008222b-d2fc-4244-bd99-2663704e6d04",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:53.825792360Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)"
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846/services/cloudresourcemanager.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/cloudresourcemanager.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/services/cloudresourcemanager.googleapis.com",
+      "request": {
+        "name": "projects/positive-cocoa-433922-n2/services/cloudresourcemanager.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      },
+      "response": {
+        "service": {
+          "name": "projects/694494927846/services/cloudresourcemanager.googleapis.com",
+          "config": {
+            "name": "cloudresourcemanager.googleapis.com",
+            "title": "Cloud Resource Manager API"
+          },
+          "state": "ENABLED",
+          "parent": "projects/694494927846"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-3vqq0jdldni",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:54.375732374Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-694494927846-fce04858-7731-46d4-a8cc-10b7c9e190a6",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:19:54.375732374Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-af427848-f459-424b-861c-545b4ea819c4"
+    },
+    "insertId": "1mkg9djdu53a",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:54.584883Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:55.646556611Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-c008222b-d2fc-4244-bd99-2663704e6d04"
+    },
+    "insertId": "mj0xfidmcdw",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:54.872341Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:55.147927215Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-2f774ca2-f92b-41e5-923b-1387184d10c2"
+    },
+    "insertId": "7s0ayldvwdy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:55.144990Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:56.018781071Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "136.142.159.54",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/694494927846",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/694494927846/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/694494927846/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/694494927846/operations/acat.p2-694494927846-fce04858-7731-46d4-a8cc-10b7c9e190a6"
+    },
+    "insertId": "utay4ldtb7b",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:19:55.446348Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:19:55.945365732Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/55839f3e557045a49a77a8c9f19d6ed5 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-29T18:22:55.190645490Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "parent": "projects/positive-cocoa-433922-n2/locations/global",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1u1q22wduev6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:22:55.139524497Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/694494927846/locations/global/workloadIdentityPools/github/operations/bigar76pqs4qmeeqvouysay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:22:56.196232650Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/694494927846/locations/global/workloadIdentityPools/github/operations/bigar76pqs4qmeeqvouysay000000000"
+      }
+    },
+    "insertId": "s3525oc5tb",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:22:55.825536Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/694494927846/locations/global/workloadIdentityPools/github/operations/bigar76pqs4qmeeqvouysay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:22:56.670248523Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid attribute condition. [ERROR 'ERROR: <expression>:1:31: undeclared reference to 'sirfan123' (in container '')\n | assertion.repository_owner == sirfan123\n | ..............................^' at 30]"
+      },
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/823cda9564cf4ec3a075ac8d6d24ee7a environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-29T18:25:54.455872307Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "displayName": "My GitHub Repo Provider",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub"
+          },
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository_owner == sirfan123"
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "parent": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1mleltjdrj6f",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-29T18:25:54.440479309Z",
+    "severity": "ERROR",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:25:55.148276225Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/9c3eb9855c864e8ea44f97cc8ec8ebfc environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-29T18:28:08.265574754Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "attributeMapping": {
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository",
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor"
+          },
+          "disabled": false,
+          "displayName": "My GitHub Repo Provider"
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProviderId": "my-repo"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1mleltjdrjci",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com",
+        "project_id": "positive-cocoa-433922-n2"
+      }
+    },
+    "timestamp": "2024-10-29T18:28:08.250413183Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/694494927846/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarogsqs4qmeea5klnmaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-29T18:28:09.173217116Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/global/workloadIdentityPools/github",
+      "response": {
+        "name": "projects/694494927846/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarogsqs4qmeea5klnmaq000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "-o43nkfbd9",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:28:08.718677Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/694494927846/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigarogsqs4qmeea5klnmaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-29T18:28:08.925429553Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "123samih101@gmail.com",
+        "principalSubject": "user:123samih101@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "34.23.102.99",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/498.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/d9efeb2a787f416093ca29a0a4f909f0 environment/devshell environment-version/None client-os/LINUX client-os-ver/6.1.112 client-pltf-arch/x86_64 interactive/True from-script/False python/3.11.9 term/screen (Linux 6.1.112+),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-29T18:55:27.456595640Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+      "request": {
+        "resource": "projects/positive-cocoa-433922-n2/locations/us-east1/repositories/build-and-push-repo",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1fx2l0ld3zjx",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "positive-cocoa-433922-n2",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-29T18:55:27.447189Z",
+    "severity": "NOTICE",
+    "logName": "projects/positive-cocoa-433922-n2/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-29T18:55:28.478372856Z"
+  }
+]
